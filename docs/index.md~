@@ -1,0 +1,32 @@
+# Work Environment
+
+This is a test documentation. It reproduces the content of my work environement on GitHub using MkDocs.
+You can find here reporting and/or technical tips on installations, commands, programmting, etc.
+
+
+## Commands to Remember
+
+Here are a few commands that I tend to forget in Linux, Git and Python
+
+* to check version of package :  [name of package] --version
+* emacs : C-w to CUT text
+          M-w to COPY text (M=alt)
+          C-y to PASTE text
+          C-space to MARK START OF BLOCK
+          Shift-arrow to SELECT
+* python : if test1 :
+              instruction1
+           elif test2 :
+              instruction2
+
+
+## Creating a local repository on Git without using the webpage
+Markup: 1.  Create SSH key
+	2. Link it to my github account --> https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+	3. ssh -T git@github.com to test the SSH connection to github account
+	4. sudo apt-get update and upgrade
+	5. sudo snap install hub --classic
+	6. IMPPORTANT NOTE !! update and upgrade after each installation of package !!
+	7. steps to create repository: git init, git add ., git commit, hub create [name of repo].git, git push origin master
+
+ 
